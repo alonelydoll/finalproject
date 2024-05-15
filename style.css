@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 1024px;
+}
+
+header {
+    height: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 1110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 64.09px;
+    height: 40px;
+}
+
+.menu {
+    width: 431px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu > a {
+    color: #5E607A;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+.burger {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 65px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-gap: 30px; 
+}
+
+.main-picture {
+    height: 300px;
+    grid-column: 1/3;
+}
+
+#mobile {
+    display: none;
+}
+
+.title {
+    height: 181px;
+}
+
+.title > p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+    color: #00001A;
+}
+
+.text {
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text > p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #5E607A;
+    margin: 0;
+}
+
+.text > a {
+    background-color: #F15D51;
+    width: 185px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 4.375px;
+    text-align: left;
+    color: #FFFDFA;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.news {
+    background-color: #00001A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 302px;
+    height: 511px;
+    padding: 20px 24px 10px 24px;
+}
+
+#word > p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #E9AA52;
+    margin: 0;
+    height: 40px;
+    padding: 0;
+}
+
+#articles {
+    height: 374px;
+    color: #FFFDFA;
+}
+
+#articles h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+    padding-top: 14.5px;
+}
+
+#articles p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #C5C6CE;
+    border-bottom: 1px solid #5E607A;
+    padding-bottom: 20px;
+}
+
+#articles :nth-child(6) {
+    border-bottom: none;
+} 
+
+#articles :nth-child(1) {
+    padding-top: 0;
+} 
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    width: 1110px;
+    height: 129px; 
+    margin-top: 71px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container2 > a { 
+    text-decoration: none;
+}
+
+.section { 
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 129px;
+}
+
+.section-picture {
+    width: 100px;
+    margin-right: 24px;
+}
+
+.section-picture > img {
+    object-fit: cover;
+    height: 129px;
+}
+
+.section-text h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #C5C6CE;
+    margin: 0;
+}
+
+.section-text h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #00001A;
+    margin-top: 8px;
+}
+
+.section-text p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #5E607A;
+    margin-top: 10px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1136px) {
+    body {
+        overflow: auto;
+        padding: 16px;
+        height: auto;
+    }
+
+    header {
+        height: 110px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu > a {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        width: 40px;
+        height: 17px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-picture > img {
+       display: none;
+    }
+
+    #mobile {
+        display: flex;
+        object-fit: cover;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .news  {
+        padding-bottom: 20px;
+        display: flex;
+        width: auto;
+        padding-top: 0;
+    }
+
+    #word > p {
+        margin-top: 0;
+        padding-top: 20px;
+        /* padding-bottom: 20px; */
+    }
+
+    .container2 {
+        width: 100%;
+        margin-top: 51px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 129px;
+    }
+
+    #section {
+        padding-bottom: 30px;
+    }
+
+    #section3 {
+        padding-bottom: 80px;
+    }
+}
